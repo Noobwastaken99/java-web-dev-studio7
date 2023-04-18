@@ -14,6 +14,6 @@ public class Main {
         myDvd.spinDisc();
         System.out.println("\n");
         myCd.storeData("Hello World The Album!!!");
-        myCd.readDisc();
+        myCd.loadDisc();
     }
 }

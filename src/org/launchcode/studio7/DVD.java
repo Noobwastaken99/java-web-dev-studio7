@@ -27,8 +27,8 @@ public class DVD extends BasicDisc implements OpticalDisc {
     }
 
     @Override
-    public void readDisc() {
-        System.out.println(this.contents);
+    public String readDisc() {
+        return this.contents;
     }
 
     @Override

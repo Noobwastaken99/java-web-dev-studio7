@@ -1,9 +1,8 @@
 package org.launchcode.studio7;
 
 public interface OpticalDisc {
-    void spinDisc();
-
-    void readDisc();
-    void writeDisc();
-    void loadDisc();
+    public void spinDisc();
+    public String readDisc();
+    public void writeDisc();
+    public void loadDisc();
 }
